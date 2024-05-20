@@ -1,7 +1,30 @@
-airbnb_project
+Airbnb_Project
 ==============================
 
-Analyze Madrid Airbnb dataset from Kaggle. Create Grafana dashboard and machine learning models. Deplyment with Docker.
+Analyze Madrid Airbnb dataset from [Kaggle](https://www.kaggle.com/datasets/rusiano/madrid-airbnb-data). Create QSL database with PostgreSQL, dashboard with Grafana and machine learning models with Tensorflow. Deployment with Docker and easy install with pip.
+
+## How to install
+
+For devs:
+1. Run **pip install .** in the root directoy. Create [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) environment if needed.
+2. Install [postgreSQL](https://www.postgresql.org).
+3. Install [Grafana](https://grafana.com).
+4. Add **.env** file with variable **project_dir** pointing to root folder.
+
+For users:
+
+1. Make it easy, make it docker.
+
+## Resources
+Currently implemented you can find:
+- Creation of SQL database and tables. See **src/data/sql_manager.py** and **test/src/data/sql_manager.py**.
+- Creation of airbnb data table using listing.csv file. See **src/data/onboard_airbnb_data.py**.
+- Jupyter notebook for data exploration. See **notebooks/explore_data.ipynb**.
+- Grafana dashboard at **reports/Airbnb Explorer-1715585843478.json**. See dashboard below.
+
+![alt text](https://github.com/[mrvgME]/[Airbnb_Project]/blob/[master]/reports/figures/grafana_dashboard.jpg?raw=true)
+
+
 
 Project Organization
 ------------
@@ -53,5 +76,3 @@ Project Organization
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
