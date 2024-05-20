@@ -22,7 +22,7 @@ Currently implemented you can find:
 - Jupyter notebook for data exploration. See **notebooks/explore_data.ipynb**.
 - Grafana dashboard at **reports/Airbnb Explorer-1715585843478.json**. See dashboard below.
 
-![alt text](https://github.com/[mrvgME]/[Airbnb_Project]/blob/[master]/reports/figures/grafana_dashboard.png?raw=true)
+![alt text](https://github.com/mrvgME/Airbnb_Project/blob/master/reports/figures/grafana_dashboard.png?raw=true)
 
 
 
