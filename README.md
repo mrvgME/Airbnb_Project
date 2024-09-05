@@ -17,10 +17,10 @@ For users:
 
 ## Resources
 Currently implemented you can find:
-- Creation of SQL database and tables. See **src/data/sql_manager.py** and **test/src/data/sql_manager.py**.
-- Creation of airbnb data table using listing.csv file. See **src/data/onboard_airbnb_data.py**.
-- Jupyter notebook for data exploration. See **notebooks/explore_data.ipynb**.
-- Grafana dashboard at **reports/Airbnb Explorer-1715585843478.json**. See dashboard below.
+- Creation of SQL database and tables. See [**src/data/sql_manager.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/src/data/sql_manager.py) and [**test/src/data/sql_manager.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/test/src/data/sql_manager.py).
+- Creation of airbnb data table using listing.csv file. See [**src/data/onboard_airbnb_data.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/src/data/onboard_airbnb_data.py).
+- Jupyter notebook for data exploration. See [**notebooks/explore_data.ipynb**](https://github.com/mrvgME/Airbnb_Project/blob/master/notebooks/explore_data.ipynb).
+- Grafana dashboard at [**reports/Airbnb_Explorer.json**](https://github.com/mrvgME/Airbnb_Project/blob/master/reports/Airbnb_Explorer.json). See dashboard below.
 
 ![alt text](https://github.com/mrvgME/Airbnb_Project/blob/master/reports/figures/grafana_dashboard.png?raw=true)
 
