@@ -1,21 +1,28 @@
-Airbnb_Project
+Madrid Airbnb Data Explorer
 ==============================
 
-Analyze Madrid Airbnb dataset from [Kaggle](https://www.kaggle.com/datasets/rusiano/madrid-airbnb-data). Create QSL database with PostgreSQL, dashboard with Grafana and machine learning models with Tensorflow. Deployment with Docker and easy install with pip.
+Analyze Madrid Airbnb dataset from [Kaggle](https://www.kaggle.com/datasets/rusiano/madrid-airbnb-data). Create SQL database with PostgreSQL, dashboard with Grafana and machine learning models with Tensorflow. Deployment with Docker and easy install with pip.
+
+## Todo list
+- Make the project pip installable.
+- Create docker image.
+- Add image and introduction chapter to notebook.
+- Create graphs in Jupyter Notebook.
+- Create models and save it at /models folder.
 
 ## How to install
 
 For devs:
-1. Run **pip install .** in the root directoy. Create [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) environment if needed.
+1. Run **pip install -r requirements.txt** in the root directoy. Create [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) environment if needed.
 2. Install [postgreSQL](https://www.postgresql.org).
 3. Install [Grafana](https://grafana.com).
 4. Add **.env** file with variable **project_dir** pointing to root folder.
 
 For users:
 
-1. Make it easy, make it docker.
+1. Make it easy, make it docker. Or, **pip install .** in the root directoy to install it as a python package.
 
-## Resources
+## Resources in this project
 Currently implemented you can find:
 - Creation of SQL database and tables. See [**src/data/sql_manager.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/src/data/sql_manager.py) and [**test/src/data/sql_manager.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/test/src/data/sql_manager.py).
 - Creation of airbnb data table using listing.csv file. See [**src/data/onboard_airbnb_data.py**](https://github.com/mrvgME/Airbnb_Project/blob/master/src/data/onboard_airbnb_data.py).
@@ -24,9 +31,12 @@ Currently implemented you can find:
 
 ![alt text](https://github.com/mrvgME/Airbnb_Project/blob/master/reports/figures/grafana_dashboard.png?raw=true)
 
+## How to contribute
+
+Just fork the repository and ask for merge request. Otherwise, create issue in the repository with suggestions.
 
 
-Project Organization
+Project organization
 ------------
 
     ├── LICENSE
