@@ -26,7 +26,7 @@ class OnboardAirbnbData:
 
         if file_name not in __implementedFiles__:
             raise ValueError(
-                "{} is nor implemented. Implemented files are {}".format(
+                "{} is not implemented. Implemented files are {}".format(
                     file_name, __implementedFiles__
                 )
             )
